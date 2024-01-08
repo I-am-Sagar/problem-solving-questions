@@ -1,0 +1,8 @@
+Tasks:
+1. Write the problem statement in detailed easy-to-understand language. Change the name of characters in the story if they are any. Example: If the story contains a character named 'Bob', change its name to some Indian name like 'Ramesh', 'Anil', 'Vijay', etc. 
+2. Explain in detail the Input format. 
+3. Explain in detail the Output format. 
+4. Mention the constraints for the input variables. 
+5. Give sample input and sample output. Explain it in detail. 
+
+Provide the output in Markdown format with level 4 headings (####), bullet points and highlight blocks. 

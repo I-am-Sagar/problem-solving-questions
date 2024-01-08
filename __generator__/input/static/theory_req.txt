@@ -1,0 +1,6 @@
+Tasks: 
+1. Refer to the problem statment and the solution code. Explain in detail, all the concepts required to solve this problem and be able to write the code. Explain the data structure and algorithm that uses in detail. Provide examples if necessary.
+2. Suggest questions that are very similar to the given problem and could be solved using similar approach.
+3. Provide code solution in C++ and code explanation for the problems suggested above.  
+
+Provide the output in Markdown format with level 4 headings (####), bullet points and code highlight blocks. 

@@ -1,0 +1,8 @@
+Tasks: 
+1. Replace the variable names with more meaningful variable names in the code provided. Add as many comments as possible. Structure the code in a better format. Beautify it. This code is in C++. 
+2. Provide the equivalent Java code. 
+3. Provide the equivalent Python code. 
+4. Provide the equivalent JavaScript (Node.js) code. 
+5. Imagine this is an interview question asked to you by the technical interviewer. How will you explain the interviewer your approach and the logic behind this code? Give as detailed answer as possible. 
+
+Provide the output in Markdown format with level 4 headings (####), bullet points and code highlight blocks. 

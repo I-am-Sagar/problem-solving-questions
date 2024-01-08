@@ -1,0 +1,3 @@
+Tasks:
+1. Provide one topic tag to which the problem should belong. The output should be lowercase words separated by underscores. Example outputs: "linked_lists", "trees", "graphs", "shortest_path", "graph_traversals", "number_theory", "dynamic_programming", "sorting", etc. 
+2. Provide one name to the problem. 
