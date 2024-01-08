@@ -1,29 +1,38 @@
-A bulb can be ‘ON’ or ‘OFF’. Mr. Navdeep got ‘n’ number of bulbs and their status, whether they are ‘ON’ or ‘OFF’. Their status is represented in a string of size ‘n’ consisting of 0’s and 1’s, where ‘0’ represents the bulb is in ‘OFF’ condition and ‘1’ represent the bulb is ‘ON’. Mr. Navdeep has been given the task to light up all the bulbs.
+The fight for the best number in the globe is going to finally come to an end.The top two contenders for the best number are number 2 and number 3.It's the final the entire world was waiting for. Expectorates from all across the globe came to witness the breath taking finals.
 
-He can perform two operations.
+The finals began in an astonishing way.A common problem was set for both of them which included both these number.The problem goes like this.
 
-First, chose any segment of bulbs and reverse them means chose any substring and reverse it. E.g. “0 110 001” -> “0 011 001”. Substring (1, 3) is reversed here. This operation will cost him Rs. ‘X’.
+Given a binary string (that is a string consisting of only 0 and 1). They were supposed to perform two types of query on the string.
 
-Second, chose any segment of bulbs and reverse their present condition. i.e. if the bulb is ‘ON’, make it ‘OFF’ and if it is ‘OFF’, make it ‘ON’. E.g. “0 011 001” -> “0 100 001”. Substring (1, 3) is complemented. This operation will cost him Rs. ‘Y’.
+Type 0: Given two indices l and r.Print the value of the binary string from l to r modulo 3.
 
-You need to help Mr. Navdeep that how much minimum amount it will require to make all the bulbs lightened. (or make all the characters as ‘1’ in the representation string)
+Type 1: Given an index l flip the value of that index if and only if the value at that index is 0.
+The problem proved to be a really tough one for both of them.Hours passed by but neither of them could solve the problem.So both of them wants you to solve this problem and then you get the right to choose the best number in the globe.
 
-Detailed explanation ( Input/output format, Notes, Images )
-Input Format:
-The first line will contain three space separated integers: ‘n’, ‘X’, ‘Y’ denoting the number of bulbs, cost of first operation and cost of second operation respectively.
-The second line contains a representation string of length ‘n’ consisting of 0’s and 1’s representing whether the bulb is ‘OFF’ or ‘ON’.
-Output Format:
-Print a single integer denoting the minimum cost required to light up all the bulbs.
+Input:
+The first line contains N denoting the length of the binary string .
+The second line contains the N length binary string.Third line contains the integer Q indicating the number of queries to perform.
+This is followed up by Q lines where each line contains a query.
+Output:
+For each query of Type 0 print the value modulo 3.
 Constraints:
-1 <= n <= 3,00,000
-0 <= X, Y <= 10^9
-Time Limit: 1 second
-Sample Input:
-5 1 10
-01000
-Sample Output:
-11
-Explanation:
-First, Reverse substring (0, 1): “01000” -> “10000”, COST = 1
-Second, Invert substring (1, 4): “10000” -> “11111”, COST = 10
-Total cost = 1+10 => 11
+1<= N <=10^5
+
+1<= Q <= 10^5
+
+0 <= l <= r < N
+Sample Input
+5
+10010
+6
+0 2 4
+0 2 3
+1 1
+0 0 4
+1 1
+0 0 3
+Sample Output
+2
+1
+2
+1
